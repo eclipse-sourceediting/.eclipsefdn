@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-sourceediting') {
+orgs.newOrg('webtools.sourceediting', 'eclipse-sourceediting') {
   settings+: {
     description: "",
     name: "Eclipse WTP Source Editing",
